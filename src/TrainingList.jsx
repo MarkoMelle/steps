@@ -1,7 +1,7 @@
 import React from "react";
 
 const TrainingList = (props) => {
-  const { items, onDelete, onChange } = props;
+  const { items, onDelete} = props;
   window.items = items;
 
   const formatDate = (date) => {
